@@ -1,11 +1,3 @@
-Kaynak: Google Stitch — [https://stitch.withgoogle.com/projects/11054523538419192473](https://stitch.withgoogle.com/projects/11054523538419192473)
-
-![01 · Giriş](design/01-giris.png)
-![02 · Sahne](design/02-sahne.png)
-![03 · Son](design/03-son.png)
-
-> Ekranlardaki metinler örnektir; oyunun metinlerinin tek kaynağı spec.md'dir.
-
 ---
 name: Narrative Terminal
 colors:
@@ -134,6 +126,15 @@ spacing:
   space-xl: 2rem
 ---
 
+Kaynak: Google Stitch — [https://stitch.withgoogle.com/projects/11054523538419192473](https://stitch.withgoogle.com/projects/11054523538419192473)
+
+![01 · Giriş](design/01-giris.png)
+![02 · Sahne](design/02-sahne.png)
+![03 · Son A](design/03-son.png)
+![04 · Son B](design/04-son-b.png)
+
+> Ekranlardaki metinler örnektir; oyunun metinlerinin tek kaynağı spec.md'dir.
+
 ## Brand & Style
 
 This design system defines an interactive narrative game and technical learning companion for mobile devices. The product sits at the intersection of a deep engineering monograph, a terminal monitor, and a branching playable drama.
@@ -236,3 +237,17 @@ The geometry reflects a modern electronic reader crossed with an industrial inst
 - **Backdrop:** Screen dim with `#0B132B` at 80% opacity and a 6px blur.
 - **Handle:** 36px wide, 4px thick pill in `#94A3B8` (40% opacity).
 - **Content:** Architectural diagrams, architectural tips, and spoiler-shielded decision hints rendered in high-legibility sans-serif text.
+
+## Stitch ekranlarından uygulamaya
+
+Stitch ekranları ile uygulama arasındaki farklar. Uygulamada geçerli olan sağdaki sütundur.
+
+| Fark | Uygulamadaki karşılığı |
+|---|---|
+| Giriş ekranında 3 profil sorusu aynı sayfada görünüyor. | Profil soruları adım adım, birer birer gelir. |
+| Tutor paneli tek bir hazır soru gösteriyor; mesaj yazılacak alan yok. | Tutor gerçek bir sohbettir (Gemini). |
+| Sahne ekranında 42 sn'lik geri sayım ve ipucu kutusu aynı anda görünüyor. | Sayaç yalnızca "Deneyimliyim" seviyesinde vardır ve 60 sn'dir; görseldeki 42 sn, geri sayımın bir anıdır. |
+| Süre dolduğunda ne olacağı çizilmemiş. | "Süre doldu" sonuç kartında gösterilir. |
+| İpucu kutusu her seviyede açık görünüyor. | İpucu kutusu yalnızca "Yeni başladım" seviyesinde otomatik açılır. |
+| Son ekranlarında telemetri kutuları (Uptime, Kayıt kaybı/Veri ihlali, MTTR), MTTR hedefi ve "Post-Mortem Raporunu İncele" butonu var. | Bunlar dekoratiftir, uygulamada yer almaz. |
+| 02, 03 ve 04 görsellerinde logo yerine "SE Primer" yazısı görünüyor. | Logo Stitch'te Google girişi gerektiren bir adreste olduğu için görsellerde yüklenemedi ve alt metin göründü. |
