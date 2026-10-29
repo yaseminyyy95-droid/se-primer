@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+dist/
+build/
+coverage/
+.cache/
+
+# Ortam değişkenleri / API anahtarları
+.env
+.env.*
+!.env.example
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# İşletim sistemi / editör
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
