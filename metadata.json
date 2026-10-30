@@ -1,0 +1,6 @@
+{
+  "name": "SE Primer: Yazılım Mühendisliği, Oynanan Bir Kitap",
+  "description": "Kişiye uyum sağlayan etkileşimli yazılım mühendisliği kitabı ve kriz simülasyonu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

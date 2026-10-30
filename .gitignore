@@ -27,3 +27,8 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# AI Studio uygulaması (.gitignore birleştirildi)
+*.log
+.env*
+!.env.example
